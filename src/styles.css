@@ -129,3 +129,15 @@ footer strong{color:#403731;font-size:15px}
 .choice-card strong{display:block;font-size:15px;line-height:1.2;margin:7px 0 5px}
 .choice-card small{font-size:11px;line-height:1.35;display:block}
 .choice-button{margin-top:13px;width:100%;padding:11px;border-radius:13px;background:#f0a548;color:#fff;font-weight:800}
+.system-grid{display:grid;grid-template-columns:1fr;gap:10px}
+.system-card{display:flex;align-items:center;gap:12px;min-height:76px;padding:12px 13px;border-radius:19px;background:#fffdf9;box-shadow:0 7px 13px #99734a12}
+.system-card i{display:flex;align-items:center;justify-content:center;flex:0 0 43px;width:43px;height:43px;border-radius:15px;background:#ffdb95;color:#d15c30;font-style:normal;font-weight:900;font-size:18px}
+.system-card h3{margin:0 0 4px;font-size:16px}
+.system-card p{margin:0;color:#806e62;font-size:12px;line-height:1.5}
+.system-card.tradition i,.system-card.quality i{background:#ffe8b7;color:#c58a27}
+.system-card.life i,.system-card.special i{background:#ccebd0;color:#37884d}
+.system-card.social i,.system-card.brain i{background:#d7e8fa;color:#4a80b6}
+.music-toggle{position:fixed;right:17px;top:calc(env(safe-area-inset-top) + 68px);z-index:6;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;color:#fff;background:#f17a36;box-shadow:0 7px 17px #bf5b3e52}
+.music-toggle span{display:block;font-size:21px;line-height:1}
+.music-toggle.is-playing span{animation:music-spin 4s linear infinite}
+@keyframes music-spin{to{transform:rotate(360deg)}}
